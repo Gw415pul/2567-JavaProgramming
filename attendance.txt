@@ -1,4 +1,4 @@
 Student ID: 2313170025
 Student Name: Glorawin Pulsirisombat
-Date: 12/2/2024
-Topic: Control Statements and Comfirm Dialog box
+Date: 12/9/2024
+Topic: String Method
