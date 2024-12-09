@@ -1,3 +1,4 @@
+package labsheet02;
 import javax.swing.*;
 import java.util.*;
 import java.text.*;
@@ -23,6 +24,7 @@ public class Withdrawal {
 		"\n500 = "+ ((moneywithdraw%1000)/500)+
 		"\n100 = "+ (((moneywithdraw%1000)%500)/100));
 		}
+
 	}
 
 }

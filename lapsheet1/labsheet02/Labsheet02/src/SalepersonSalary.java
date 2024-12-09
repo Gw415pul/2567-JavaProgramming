@@ -1,3 +1,4 @@
+package labsheet02;
 import java.util.Scanner;
 public class SalepersonSalary {
 
@@ -25,6 +26,7 @@ public class SalepersonSalary {
 		}
 		System.out.println("bye.");
 		System.out.println("All salesperson's salaries have been computed.");
+
 
 	}
 

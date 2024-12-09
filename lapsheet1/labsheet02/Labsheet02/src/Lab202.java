@@ -1,6 +1,6 @@
+package labsheet02;
 import java.util.*;
-public class Lab202 {
-
+public class lab202 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int num;
@@ -22,5 +22,4 @@ public class Lab202 {
 		}
 		
 	}
-
 }
