@@ -1,0 +1,10 @@
+package lapsheet06;
+
+public class TestLoanCalculator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
