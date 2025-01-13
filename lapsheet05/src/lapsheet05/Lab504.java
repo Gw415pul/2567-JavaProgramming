@@ -1,4 +1,4 @@
-package lapsheet05;
+package labsheet05;
 import java.util.*;
 public class Lab504 {
 
@@ -16,12 +16,15 @@ public class Lab504 {
 			total += _score;
 		}
 		double avg = total/score.length;
-		System.out.printf("%nAverage of %d student : %.2f",score.length,avg);
+		System.out.printf("%nAverage of %d student : %.2f\n",score.length,avg);
 		for(int i =0; i<score.length;i++) {
-			System.out.printf("> Student %d (%.2f)\n",score.length,score[i]);
+			if (avg<score[i]) {
+				System.out.printf("> Student %d (%.2f)\n",score.length,score[i]);
+			}else {
+				break;
+			}
 		}
 
-		
 	}
 
 }
