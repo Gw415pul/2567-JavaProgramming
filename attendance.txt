@@ -1,4 +1,4 @@
 Student ID: 2313170025
 Student Name: Glorawin Pulsirisombat
-Date: 1/13/2024
-Topic: Class and Object
+Date: 1/20/2024
+Topic: Encapsulation Concept and Array Object
