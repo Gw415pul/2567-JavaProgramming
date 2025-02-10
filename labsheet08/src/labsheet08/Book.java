@@ -2,41 +2,39 @@ package labsheet08;
 
 public class Book {
 	private String title;
-	private Author author;
-	private int pages;
-	
-	Book(String title,Author author, int pages){
-		this.title = title;
-		this.author= author;
-		this.pages = pages;
-	}
-	Book(String title,Author author){
-		this.title = title;
-		this.author= author;
-		this.pages = 0;
-	}
-	Book(){
-		this.title=null;
-		this.author=null;
-		this.pages=0;
-	}
-	public String getTitle() {
-		return this.title;
-	}
-	public Author getAuthor() {
-		return this.author;
-	}
-	
-	public void setPages(int pages) {
-		this.pages = pages;		
-	}
-	
-	public int getPages() {
-		return this.pages;
-	}
-	
-	public String toString() {
-		return getTitle()+" has " + getPages() + " pages write by "+ author.toString();
-	}
+    private Author author;
+    private int page;
+
+    public Book(String title, Author author, int page) {
+        this.title = title;
+        this.author = author;
+        this.page = page;
+    }
+
+    public Book(String title, Author author) {
+        this.title = title;
+        this.author = author;
+        this.page = 0; 
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public Author getAuthor() {
+        return author;
+    }
+
+    public int getPage() {
+        return page;
+    }
+
+    public void setPage(int page) {
+        this.page = page;
+    }
+
+    public String toString() {
+        return title + " has " + page + " pages write by " + author.toString();
+    }
 
 }
