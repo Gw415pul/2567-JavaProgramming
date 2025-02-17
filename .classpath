@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="labsheet07/src/|lapsheet05/src/|labsheet04/src/|labsheet08/src/|lapsheet06/src/|lapsheet1/labsheet02/LabSheet02attakorn/src/|lapsheet1/labsheet02/LadSheet02attakorn/src/|lapsheet1/labsheet02/attakornLadSheet02/src/|lapsheet1/labsheet01/src/" kind="src" path=""/>
+	<classpathentry kind="src" path="labsheet04/src"/>
+	<classpathentry kind="src" path="labsheet07/src"/>
+	<classpathentry kind="src" path="labsheet08/src"/>
+	<classpathentry kind="src" path="lapsheet05/src"/>
+	<classpathentry kind="src" path="lapsheet06/src"/>
+	<classpathentry kind="src" path="lapsheet1/labsheet01/src"/>
+	<classpathentry kind="src" path="lapsheet1/labsheet02/attakornLadSheet02/src"/>
+	<classpathentry kind="src" path="lapsheet1/labsheet02/LabSheet02attakorn/src"/>
+	<classpathentry kind="src" path="lapsheet1/labsheet02/LadSheet02attakorn/src"/>
+	<classpathentry kind="output" path="labsheet04/bin"/>
+</classpath>
